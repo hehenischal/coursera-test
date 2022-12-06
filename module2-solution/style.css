@@ -72,21 +72,21 @@ h3 {
 
 .container .column1 div .heading {
     display: inline;
-    border: border  4px solid black;
+    border: border  1px solid black;
     background-color : pink;
     padding: 0 10px;
     margin: -4px;
 }
 .container .column2 div .heading {
     display: inline;
-    border: border 4px solid black;
+    border: border 1px solid black;
     background-color: red; 
     padding: 0 10px;
     margin: -4px;
 }
 .container .column3 div .heading {
     display: inline;
-    border: border 4px solid black;
+    border: border 1px solid black;
     background-color: yellow;
     padding: 0 10px;
     margin: -4px;
