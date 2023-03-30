@@ -9,7 +9,7 @@ body
     padding: none;
     margin: none;
     width: 100vw;
-    background-color: rgb(216, 216, 119);
+    background-color: rgb(212, 212, 79);
 }
 
 .container-fluid
@@ -32,6 +32,10 @@ button
     height: 10vh;
     outline: none; /* Add this line */
 }
+.navbar-collapse
+{
+    background-color: rgb(182, 77, 182);
+}
 .navbar-brand:focus
 {
     outline: none;
@@ -39,7 +43,7 @@ button
 }
 ul
 {
-    background-color: yellow;
+    background-color: rgb(182, 77, 182);
 }
 
 h2
