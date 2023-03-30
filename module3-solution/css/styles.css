@@ -28,9 +28,14 @@ button
 {
     margin: 0;
     padding: 0;
-    color: red;
     width: 80vw;
     height: 10vh;
+    outline: none; /* Add this line */
+}
+.navbar-brand:focus
+{
+    outline: none;
+    margin:none !important;
 }
 ul
 {
@@ -56,7 +61,7 @@ p
 a
 {
     border: none;
-    width: 80%;
+    width: 100%;
 }
 span
 {
@@ -96,24 +101,38 @@ li
 
 
 @media screen and (min-width: 768px) {
-    
+    .container-fluid
+    {
+        padding: 0 !important;
+    }
     .navbar-brand
     {
+        padding: 0 !important;
+        margin: 0 !important;
         width: 100vw;
         padding-left: 0px;
         background-color: grey;
-        margin-left: 0px;
+        
     }
     .chickn, .beef ,.sushi
-{
+    {
     background-color: grey;
     border-radius: 2px;
     width: 98%;
     margin-left: 1%;
     clear: both;
     margin-top: 5%;
+    margin-bottom: 0%;
+    }
+    .sushi
+    {
+        margin-bottom: 5%;
+    }
+    .navbar-brand:focus
+    {
+    outline: none;
+    }
 }
-  }
 
     
 
