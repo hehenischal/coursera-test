@@ -102,6 +102,10 @@ li
     margin-top: 5%;
     margin-bottom: 10%;
 }
+.visible-xs>span
+{
+    text-align:center;
+}
 
 
 @media screen and (min-width: 768px) {
